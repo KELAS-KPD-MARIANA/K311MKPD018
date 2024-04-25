@@ -12,7 +12,7 @@ public class GajiKira {
          System.out.print("Masukkan bilangan kereta = ");
          bil = input.nextInt();
          
-          if(bil > 10)
+          if(bil >=10)
        {
          komisyen = 10000.00; 
        }
@@ -26,7 +26,7 @@ public class GajiKira {
        }
            else 
        {
-         komisyen = 0.00; 
+         komisyen = 0; 
        }
           
           jumlah_gaji = komisyen + gaji_asas;
